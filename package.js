@@ -10,7 +10,7 @@ Package.onUse(function(api) {
   api.use('accounts-base', ['client', 'server']);
   api.imply('accounts-base', ['client', 'server']);
   api.use('accounts-oauth', ['client', 'server']);
-  api.use('liberation:paypal-login', ['client', 'server']);
+  api.use('liberation:paypal-login@1.0.2', ['client', 'server']);
 
   api.addFiles('paypal_login_button.css', 'client');
 
