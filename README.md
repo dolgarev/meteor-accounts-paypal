@@ -7,3 +7,12 @@ Install
 ```
 meteor add liberation:accounts-paypal
 ```
+
+Setup
+-----------
+```js
+ServiceConfiguration.configurations.upsert(
+  { service: "paypal" },
+  { $set: { clientId: "...", secret: "...", loginStyle: "popup", environment: "[live|sandbox]"} }
+);
+```
