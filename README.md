@@ -13,6 +13,6 @@ Setup
 ```js
 ServiceConfiguration.configurations.upsert(
   { service: "paypal" },
-  { $set: { clientId: "...", secret: "...", loginStyle: "popup", environment: "[live|sandbox]"} }
+  { $set: { clientId: "...", secret: "...", loginStyle: "popup", environment: "<live|sandbox>"} }
 );
 ```
