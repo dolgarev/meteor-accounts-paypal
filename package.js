@@ -1,7 +1,7 @@
 Package.describe({
   name: 'liberation:accounts-paypal',
   summary: 'Login service for PayPal accounts',
-  version: '1.0.3',
+  version: '1.0.4',
   git: 'https://github.com/dolgarev/meteor-accounts-paypal'
 });
 
